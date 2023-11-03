@@ -22,6 +22,7 @@ class Scoreboard(Turtle):
         self.l_score += 1
         self.clear()
         self.update_score()
+
     def r_point(self):
         self.r_score += 1
         self.clear()
